@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 40px;
+
+  display: flex;
+  justify-content: flex-start; /* tudo à esquerda */
+  align-items: center;
+
+  background: var(--alt-bg-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espaço entre os itens */
+}
+
+/* botão dark mode */
+.btn-dark {
+  background: var(--primary-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+}
+
+/* botão de navegação */
+.btn-nav {
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-nav:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.nav-buttons {
+  display: flex;
+  gap: 10px; /* espaço entre os botões */
+}
